@@ -32,7 +32,7 @@ function getMembers20k(group_id, members_count) {
             if (members_count >  membersGroups.length) 
                 setTimeout(function() { getMembers20k(group_id, members_count); }, 333); 
             else // если конец то
-                alert('Done. ' + membersGroups.length);
+                alert('Done. ' + membersGroups.length); //count
         } else {
             alert(data.error.error_msg); // error_msg
         }
