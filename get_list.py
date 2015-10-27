@@ -1,4 +1,4 @@
-"""get """
+"""get """ //sync with twitter
 import os
 
 from get_config import get_config
