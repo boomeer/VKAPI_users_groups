@@ -14,7 +14,7 @@ function getMembers(group_id) {
     });
 }
 
-// get users, members_count - количество участников
+// get users, members_count - count of users
 function getMembers20k(group_id, members_count) {
     var code =  'var members = API.groups.getMembers({"group_id": ' + group_id + ', "v": "5.27", "sort": "id_asc", "count": "1000", "offset": ' + membersGroups.length + '}).items;' // делаем первый запрос и создаем массив
             +   'var offset = 1000;'
